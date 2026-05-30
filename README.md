@@ -1,4 +1,4 @@
-# 🎬 PovtorMovie API
+# 🎬 django-movie-api API
 
 REST API для управления базой фильмов. Построен на Django REST Framework с JWT-аутентификацией и Swagger документацией.
 
@@ -25,8 +25,8 @@ REST API для управления базой фильмов. Построен
 ### 1. Клонируй репозиторий
 
 ```bash
-git clone https://github.com/ТВОЙюзернейм/PovtorMovie.git
-cd PovtorMovie
+git clone git@github.com:Darigaai/django-movie-api.git
+cd django-movie-api
 ```
 
 ### 2. Создай `.env` файл
@@ -118,7 +118,7 @@ GET /api/movies/?ordering=-year
 ## 🗂 Структура проекта
 
 ```
-PovtorMovie/
+django-movie-api/
 ├── core/               # Настройки Django
 │   ├── settings.py
 │   └── urls.py
