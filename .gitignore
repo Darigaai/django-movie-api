@@ -1,0 +1,28 @@
+# env
+.env
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# venv
+venv/
+.venv/
+
+# db
+db.sqlite3
+
+# django
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# docker volumes (не нужно пушить)
+*.tar
+*.gz
+
+media/
